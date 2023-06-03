@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "212470115479",
+    "project_id": "finalucassocialmedia",
+    "storage_bucket": "finalucassocialmedia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212470115479:android:89147017af4602e70c0dd2",
+        "android_client_info": {
+          "package_name": "com.yahayaessa.finalucassocialmedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212470115479-vclggct40cv3289gpuri26tr64b9b3c8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAffmGmzS36PBck7ga96ydVEt-H52RW53U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212470115479-vclggct40cv3289gpuri26tr64b9b3c8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
