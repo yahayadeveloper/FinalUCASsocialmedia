@@ -43,7 +43,7 @@
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/post1" />
+                app:srcCompat="@color/grayTransparent" />
 
             <View
                 android:id="@+id/view12"
@@ -81,7 +81,7 @@
                 android:layout_marginBottom="8dp"
                 android:contentDescription="@string/profile"
                 android:padding="4dp"
-                android:src="@drawable/profile"
+                android:src="@drawable/baseline_person_black"
                 app:civ_border_color="#fff"
                 app:civ_border_width="3dp"
                 app:layout_constraintBottom_toBottomOf="@+id/postImage"

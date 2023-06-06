@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item android:title="title"
-        android:id="@+id/setting"
+        android:id="@+id/settingsss"
         android:icon="@drawable/ic_logout_svgrepo_com"
         app:showAsAction="always"/>
 

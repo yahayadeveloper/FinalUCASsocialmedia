@@ -8,15 +8,17 @@ import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.view.menu.MenuBuilder;
 import androidx.fragment.app.FragmentTransaction;
 
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.auth.FirebaseAuth;
 import com.yahayaessa.finalucassocialmedia.Fragment.AddFragment;
 import com.yahayaessa.finalucassocialmedia.Fragment.HomeFragment;
 import com.yahayaessa.finalucassocialmedia.Fragment.NotificationFragment;
 import com.yahayaessa.finalucassocialmedia.Fragment.ProfileFragment;
 import com.yahayaessa.finalucassocialmedia.Fragment.SearchFragment;
 import com.yahayaessa.finalucassocialmedia.databinding.ActivityMainBinding;
-import com.yahayaessa.finalucassocialmedia.auth.FirebaseAuth;
 import com.iammert.library.readablebottombar.ReadableBottomBar;
 
 public class MainActivity extends AppCompatActivity {
@@ -79,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
 //
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
+
         getMenuInflater().inflate(R.menu.menu_items, menu);
         return true;
     }
@@ -86,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
-            case R.id.setting:
+            case 1:
                 auth.signOut();
                 Intent intent = new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(intent);

@@ -10,12 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
-import com.example.reachme.Adapter.CommentAdapter;
-import com.example.reachme.Model.Comment;
-import com.example.reachme.Model.Notification;
-import com.example.reachme.Model.Post;
-import com.example.reachme.Model.User;
-import com.example.reachme.databinding.ActivityCommentBinding;
+
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
@@ -23,6 +18,12 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.squareup.picasso.Picasso;
+import com.yahayaessa.finalucassocialmedia.Adapter.CommentAdapter;
+import com.yahayaessa.finalucassocialmedia.Model.Comment;
+import com.yahayaessa.finalucassocialmedia.Model.Notification;
+import com.yahayaessa.finalucassocialmedia.Model.Post;
+import com.yahayaessa.finalucassocialmedia.Model.User;
+import com.yahayaessa.finalucassocialmedia.databinding.ActivityCommentBinding;
 
 import java.util.ArrayList;
 import java.util.Date;
